@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# venv
+.venv/
+venv/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs / outputs
+
+# matplotlib cache
+
+
+# large assets (선택)
+# assets/earth/world_map.jpg

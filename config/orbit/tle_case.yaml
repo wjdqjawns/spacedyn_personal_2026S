@@ -1,0 +1,16 @@
+# run_name: orbit_case_demo
+# # Replace this with your own TLE file.
+# tle_file: assets/tle/sample.tle
+# start_utc: "2026-03-27T00:00:00"
+# duration_sec: 58000
+# step_sec: 10
+# save_csv: true
+# save_plots: true
+
+run_name: multi_sat_demo
+tle_file: assets/tle/sample.tle
+start_utc: "2026-03-27T00:00:00+00:00"
+duration_sec: 58000
+step_sec: 30
+save_csv: true
+save_plots: true
