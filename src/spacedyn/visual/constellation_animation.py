@@ -8,7 +8,6 @@ from matplotlib.animation import FuncAnimation, PillowWriter
 
 from spacedyn.analysis.proximity import find_close_pairs_at_index, find_closest_pair_at_index
 
-
 def _break_dateline(lon_deg: np.ndarray, lat_deg: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     lon_plot = lon_deg.astype(float).copy()
     lat_plot = lat_deg.astype(float).copy()
